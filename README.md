@@ -1,15 +1,15 @@
 <picture>
   <source
     width="100%"
-    srcset="./docs/banner.png"
+    srcset="./docs/banner.avif"
     media="(prefers-color-scheme: dark)"
   />
   <source
     width="100%"
-    srcset="./docs/banner.png"
+    srcset="./docs/banner.avif"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img width="100%" src="./docs/banner.png" alt="alcene.ai banner" />
+  <img width="100%" src="./docs/banner.avif" alt="alcene.ai banner" />
 </picture>
 
 <h1 align="center">alcene.ai</h1>
