@@ -1,6 +1,6 @@
 """Download and prepare the complete MNIST dataset.
 
-The script stores the four IDX files in ``data/raw`` and removes the
+This script stores the four IDX files in ``data/raw`` and removes the
 compressed archives after extraction. It uses only Python's standard library.
 """
 
