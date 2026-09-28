@@ -24,10 +24,10 @@
 </p>
 
 > [!NOTE]
-> `alcene.ai` is in **pre-launch**. This README describes the vision and direction. Code, benchmarks, and docs land as they are built. Nothing below is shipped yet.
+> This branch's act as landing page repository for every other Alcene's AI model branches.
 
 > [!TIP]
-> Alcene is an **embedded inference engine**: small, portable, dependency-light, designed to run AI models where your app already lives — not as a sidecar service you have to babysit.
+> Alcene is focused on **embedded inference model** designed to run AI models with the fewest amount of computational power possible.
 
 ## What's So Special About This Project?
 
