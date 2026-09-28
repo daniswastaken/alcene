@@ -1,0 +1,2 @@
+- [ ] README documentations.
+- [ ] Model loaded and running natively on ESP32 S3.
