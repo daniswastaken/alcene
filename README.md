@@ -40,6 +40,18 @@ Most inference stacks are heavy: big runtimes, GPU-only paths, server-shaped ass
 > [!TIP]
 > This is a **small, focused project**. The embedded form factor is permanent. Long-term direction grows toward broad model coverage and production hardening while keeping the **lightweight footprint** intact.
 
+
+<!--------- Released Models Section ----------->
+
+<h1 align="center">Models</h1>
+<p align="center">All released models by Alcene AI.</p>
+
+<p float="center" align="center">
+  <a href="https://github.com/daniswastaken/alcene/tree/mnist">
+    <img width="32%" src="docs/static/mnist.svg" alt="MNIST" />
+  </a>
+</p>
+
 ## License
 
 MIT — see [`LICENSE`](LICENSE). Copyright (c) 2026 Handaru Daniswara.
