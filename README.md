@@ -33,7 +33,7 @@
 
 This branch is focused on training and making an **MNIST** model. MNIST model itself are an AI trained to guess a digit from the provided `28x28 pixels image`.
 
-- Benchmarks: **98.02%** accuracy across 20000 image tests.
+- Benchmarks: **~97.58%** accuracy across 20000 image tests.
 - Layers: **3-layers** neural network.
 - Weights: `< 1 MB` model weight.
 
