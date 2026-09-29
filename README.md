@@ -12,9 +12,9 @@
   <img width="100%" src="./docs/banner.avif" alt="alcene.ai banner" />
 </picture>
 
-<h1 align="center">alcene.ai</h1>
+<h1 align="center">MNIST — alcene.ai</h1>
 
-<p align="center">Lightweight embedded AI inference built from the ground up.</p>
+<p align="center">Lightweight embedded MNIST model built from the ground up.</p>
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/badge/License-MIT-22c55e?style=flat&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJtMTYgMTYgMy04IDMgOGMtLjg3LjY1LTEuOTIgMS0zIDFzLTIuMTMtLjM1LTMtMVoiLz48cGF0aCBkPSJtMiAxNiAzLTggMyA4Yy0uODcuNjUtMS45MiAxLTMgMXMtMi4xMy0uMzUtMy0xWiIvPjxwYXRoIGQ9Ik03IDIxaDEwIi8+PHBhdGggZD0iTTEyIDN2MTgiLz48cGF0aCBkPSJNMyA3aDJjMiAwIDUtMSA3LTIgMiAxIDUgMiA3IDJoMiIvPjwvc3ZnPg==&logoColor=white&labelColor=1a1024" />
@@ -24,21 +24,21 @@
 </p>
 
 > [!NOTE]
-> `alcene.ai` is in **pre-launch**. This README describes the vision and direction. Code, benchmarks, and docs land as they are built. Nothing below is shipped yet.
+> `MNIST — alcene.ai` is a **sub-AI** from `alcene.ai`. This branch contains all the codes and data setup needed to build and train the **Alcene's MNIST** model from scratch.
 
 > [!TIP]
-> Alcene is an **embedded inference engine**: small, portable, dependency-light, designed to run AI models where your app already lives — not as a sidecar service you have to babysit.
+> **Alcene's MNIST** model are trained and designed to run fully locally on **ESP32 S3** or any other capable embedded inference.
 
-## What's So Special About This Project?
+## What Is This Branch About?
 
-Most inference stacks are heavy: big runtimes, GPU-only paths, server-shaped assumptions. Alcene starts from the opposite end — **ground-up, embedded-first**.
+This branch is focused on training and making an **MNIST** model. MNIST model itself are an AI trained to guess a digit from the provided `28x28 pixels image`.
 
-- Embedded: link it in, don't deploy it beside you.
-- Lightweight: small footprint, fast startup, sane defaults.
-- Ground-up: no inherited bloat, every layer earns its place.
+- Benchmarks: **98.02%** accuracy across 20000 image tests.
+- Layers: **3-layers** neural network.
+- Weights: `< 1 MB` model weight.
 
-> [!TIP]
-> This is a **small, focused project**. The embedded form factor is permanent. Long-term direction grows toward broad model coverage and production hardening while keeping the **lightweight footprint** intact.
+> [!IMPORTANT]
+> The MNIST model is currently still in progress to be brought onto `ESP32 S3` platform.
 
 ## License
 
