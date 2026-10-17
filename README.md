@@ -14,7 +14,7 @@
 
 <h1 align="center">alcene.ai</h1>
 
-<p align="center">Lightweight embedded AI inference built from the ground up.</p>
+<p align="center">Custom PCB board documentation — KiCad files and board design.</p>
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/badge/License-MIT-22c55e?style=flat&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJtMTYgMTYgMy04IDMgOGMtLjg3LjY1LTEuOTIgMS0zIDFzLTIuMTMtLjM1LTMtMVoiLz48cGF0aCBkPSJtMiAxNiAzLTggMyA4Yy0uODcuNjUtMS45MiAxLTMgMXMtMi4xMy0uMzUtMy0xWiIvPjxwYXRoIGQ9Ik03IDIxaDEwIi8+PHBhdGggZD0iTTEyIDN2MTgiLz48cGF0aCBkPSJNMyA3aDJjMiAwIDUtMSA3LTIgMiAxIDUgMiA3IDJoMiIvPjwvc3ZnPg==&logoColor=white&labelColor=1a1024" />
@@ -24,33 +24,22 @@
 </p>
 
 > [!NOTE]
-> This branch's act as landing page repository for every other Alcene's AI model branches.
+> This branch documents my custom PCB board and contains its KiCad files. The main branch hosts the Alcene AI codebase; go there for project context.
 
-> [!TIP]
-> Alcene is focused on **embedded inference model** designed to run AI models with the fewest amount of computational power possible.
+## About This Branch
 
-## What's So Special About This Project?
+This branch contains all KiCad files for my custom PCB board. See the main branch (`main`) for the Alcene AI project context.
 
-Most inference stacks are heavy: big runtimes, GPU-only paths, server-shaped assumptions. Alcene starts from the opposite end — **ground-up, embedded-first**.
+### Contents
 
-- Embedded: link it in, don't deploy it beside you.
-- Lightweight: small footprint, fast startup, sane defaults.
-- Ground-up: no inherited bloat, every layer earns its place.
-
-> [!TIP]
-> This is a **small, focused project**. The embedded form factor is permanent. Long-term direction grows toward broad model coverage and production hardening while keeping the **lightweight footprint** intact.
+- `kicad/` — project files, schematics, footprints, and board layouts
+- `docs/` — board documentation, render notes, and build info
 
 
-<!--------- Released Models Section ----------->
+<!--------- Board Files Section ----------->
 
-<h1 align="center">Models</h1>
-<p align="center">All released models by Alcene AI.</p>
-
-<p float="center" align="center">
-  <a href="https://github.com/daniswastaken/alcene/tree/mnist">
-    <img width="32%" src="docs/static/mnist.svg" alt="MNIST" />
-  </a>
-</p>
+<h1 align="center">Board Files</h1>
+<p align="center">KiCad project files for the custom PCB board.</p>
 
 ## License
 
