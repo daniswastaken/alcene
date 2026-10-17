@@ -20,3 +20,7 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+
+# Dev Env
+.opencode
+.kilo
