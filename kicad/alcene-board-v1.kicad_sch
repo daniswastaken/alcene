@@ -2655,7 +2655,7 @@
 			)
 		)
 		(property "Value" "ILI9341_TFT_14pin"
-			(at 233.68 55.88 0)
+			(at 230.632 55.626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
