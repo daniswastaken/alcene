@@ -2941,16 +2941,6 @@
 		(uuid "219ffa6d-71f6-4ba4-a5d2-1c27bd95f885")
 	)
 	(label "GND"
-		(at 60.96 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2b3879f5-8cdd-4940-a4ed-d7a23d74d550")
-	)
-	(label "GND"
 		(at 39.37 142.24 0)
 		(effects
 			(font
@@ -2969,36 +2959,6 @@
 			(justify left bottom)
 		)
 		(uuid "2f6a3bb7-4da6-4f3c-b80d-197c44e6e99e")
-	)
-	(label "LCD_DC"
-		(at 60.96 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2ff3fc1e-5046-40f4-b7fe-45984f9cf8e5")
-	)
-	(label "LCD_BL"
-		(at 60.96 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "35679a4b-036c-480f-8d82-858d9a61b287")
-	)
-	(label "TOUCH_DOUT"
-		(at 60.96 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "38786f22-b21f-4c37-9ed7-2aa0d8c3366d")
 	)
 	(label "GPIO18"
 		(at 83.82 76.2 180)
@@ -3070,16 +3030,6 @@
 		)
 		(uuid "6084b847-afb3-4750-a6f1-769d44dc28d1")
 	)
-	(label "TOUCH_CLK"
-		(at 60.96 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6518f34d-1ee8-4437-8d55-fe2ec4c6e545")
-	)
 	(label "GPIO0"
 		(at 170.18 83.82 0)
 		(effects
@@ -3140,16 +3090,6 @@
 		)
 		(uuid "6f9e7d99-b9ff-4e18-936c-56949f22a772")
 	)
-	(label "TOUCH_CS"
-		(at 60.96 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7148e4c3-1ef4-4bae-b05a-6aecd285a4da")
-	)
 	(label "GPIO36"
 		(at 170.18 78.74 0)
 		(effects
@@ -3159,16 +3099,6 @@
 			(justify left bottom)
 		)
 		(uuid "7998ac3f-0223-403a-8131-8ceb2700f2e0")
-	)
-	(label "TOUCH_DIN"
-		(at 60.96 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7dcb5dfc-2d44-4b62-9802-7df0daeebdf0")
 	)
 	(label "GPIO12"
 		(at 83.82 93.98 180)
@@ -3260,26 +3190,6 @@
 		)
 		(uuid "8aa69267-dd3a-487c-a5ab-b225a5f6a919")
 	)
-	(label "LCD_MOSI"
-		(at 60.96 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8c7a5db3-49bb-4376-9ff6-ccb3d8796923")
-	)
-	(label "LCD_MISO"
-		(at 60.96 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9502ea9e-7783-4c9b-9e08-8ee39ac72846")
-	)
 	(label "GPIO2"
 		(at 170.18 60.96 0)
 		(effects
@@ -3310,16 +3220,6 @@
 		)
 		(uuid "a9139d55-e7de-46d6-a81f-3b70636d2626")
 	)
-	(label "LCD_CLK"
-		(at 60.96 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a920f154-7786-4dd4-bdc0-f846756a47a9")
-	)
 	(label "GPIO5"
 		(at 83.82 60.96 180)
 		(effects
@@ -3339,16 +3239,6 @@
 			(justify right bottom)
 		)
 		(uuid "bf371dfc-51ab-44af-8584-3adcfa0a538c")
-	)
-	(label "VCC"
-		(at 60.96 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c028a893-c166-47d4-8c31-f072068278a3")
 	)
 	(label "GPIO13"
 		(at 83.82 96.52 180)
@@ -3379,16 +3269,6 @@
 			(justify right bottom)
 		)
 		(uuid "cc274aa7-7037-4f49-9ef4-0ede8d340ccd")
-	)
-	(label "LCD_CS"
-		(at 60.96 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cc8f7a78-06b5-4f0b-b2d3-d9b4ff8d9666")
 	)
 	(label "GPIO41"
 		(at 170.18 66.04 0)
@@ -3460,16 +3340,6 @@
 		)
 		(uuid "e3375f7e-c4c5-45d6-a1dd-baf19180f9a4")
 	)
-	(label "LCD_RST"
-		(at 60.96 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e80a2f12-7614-4eff-9385-be19770d0efe")
-	)
 	(label "GPIO3"
 		(at 83.82 81.28 180)
 		(effects
@@ -3489,16 +3359,6 @@
 			(justify right bottom)
 		)
 		(uuid "f5d70778-52a0-4be6-bc34-44ab76bb80fd")
-	)
-	(label "TOUCH_IRQ"
-		(at 60.96 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fa763ccc-913e-4f94-8b83-a7ca14dea851")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x22_Socket")
@@ -5151,6 +5011,146 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52adc71a-b17b-4c61-98f6-fe467b91fd0e")
+	)
+	(label "LCD_CS"
+		(at 60.96 55.88000000000001 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72571ab6-0c47-47c8-b0e1-dbf33cbf8c7c")
+	)
+	(label "VCC"
+		(at 60.96 50.800000000000004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89e99d03-b795-46f6-9d9c-d73493eca08c")
+	)
+	(label "GND"
+		(at 60.96 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a198532-8e6d-430d-acd6-f9b6394ddff5")
+	)
+	(label "LCD_RST"
+		(at 60.96 58.42000000000001 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97f7a1f9-39fc-4b00-b34c-91c37360f4af")
+	)
+	(label "LCD_DC"
+		(at 60.96 60.96000000000001 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "795edd07-75b4-4a61-9d32-5eba7a22e445")
+	)
+	(label "LCD_MOSI"
+		(at 60.96 63.50000000000001 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb05e4c9-1314-4f92-a18f-9b942ba5e34b")
+	)
+	(label "LCD_CLK"
+		(at 60.96 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31647200-0fb1-46a8-a5f1-350e8dfcb5e6")
+	)
+	(label "LCD_BL"
+		(at 60.96 68.58000000000001 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "644d777f-f83b-49bb-a76b-0e2181630db5")
+	)
+	(label "LCD_MISO"
+		(at 60.96 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d704f96b-16bf-4f7c-90bd-3a6aa42fc6a4")
+	)
+	(label "TOUCH_CLK"
+		(at 60.96 73.66000000000001 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a29887d-4d60-4876-a2b0-5811a85fc49c")
+	)
+	(label "TOUCH_CS"
+		(at 60.96 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92785783-bea4-4d87-bb3b-7c8600c351ff")
+	)
+	(label "TOUCH_DIN"
+		(at 60.96 78.74000000000001 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b76fd447-3a5d-469f-bfc0-9a5c65022466")
+	)
+	(label "TOUCH_DOUT"
+		(at 60.96 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6025c9b-2ede-4534-ab98-5d9c3dcaa09f")
+	)
+	(label "TOUCH_IRQ"
+		(at 60.96 83.82000000000001 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd0553b3-21de-4dde-ae20-afe70230aab2")
 	)
 	(sheet_instances
 		(path "/"
