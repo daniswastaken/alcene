@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "X:\\alcene\\kicad\\alcene-board-v1.kicad_sch")
-		(date "2026-10-20T20:25:56")
+		(date "2026-10-20T22:23:56")
 		(tool "Eeschema 10.0.7")
 		(sheet
 			(number "1")
