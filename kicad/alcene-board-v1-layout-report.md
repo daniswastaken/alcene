@@ -1,48 +1,49 @@
-# alcene-board-v1 PCB Layout Report
+# alcene-board-v1 PCB Layout Report — Revision R3
 
-- PCB: `X:\alcene\kicad\alcene-board-v1-layout-r2.kicad_pcb`
+- PCB: `X:\alcene\kicad\alcene-board-v1-layout-r3.kicad_pcb`
+- Backup: `X:\alcene\kicad\alcene-board-v1-layout-r2-before-refinement-backup.kicad_pcb`
 - Schematic: `X:\alcene\kicad\alcene-board-v1.kicad_sch`
 - KiCad version: 10.0.7
 - Date: 2026-10-20
 - Layers: F.Cu and B.Cu only
 
-## Placement summary
+## Placement
 
-- Board outline: 120 mm x 90 mm rectangle.
-- J5 and J6 placed as a tightly paired 2-column x 18-row GPIO breakout block at the left.
-- J1 and J3 placed immediately to the right of the GPIO block.
-- J8, J7, and J9 placed along the top edge, left to right.
-- Each power header rotated to a horizontal 4-column x 2-row assembly.
-- SW1 placed left of J2 near the bottom-left.
-- J4 placed horizontally along the bottom edge of the TFT reservation.
-- TFT reservation and `2.8 INCH TFT DISPLAY AREA` label placed on F.Silkscreen on the right side.
-- GPIO labels placed on the outer left and right sides of J5 and J6.
+- J2 USB-C is locked and unchanged: X=41.525 mm, Y=109.966 mm, rotation=0°, footprint `Connector_USB:USB_C_Receptacle_GCT_USB4085`.
+- J5/J6 remain a tightly paired 2-column x 18-row GPIO breakout assembly.
+- J1/J3 remain parallel ESP32-S3 socket rows.
+- J8, J7, and J9 remain horizontal 4x2 power headers in 3V3, GND, VIN order.
+- J4 remains horizontal along the TFT reservation.
+- The TFT display-area indicator and `2.8 INCH TFT DISPLAY AREA` label remain on F.Silkscreen.
+- Minor alignment adjustments were made to power headers, ESP32 sockets, GPIO rows, and power-entry passives.
+- Board outline resized to 160 mm x 130 mm to contain the existing component envelope.
 
-## Routing summary
+## Routing
 
-- Autorouter: Freerouting, 1 attempt, 50 passes, 21.0 s.
-- Tracks: 342.
-- Vias: 8.
-- Ground copper pour added on B.Cu for GND.
-- All schematic nets were imported; six USB-C data/SBU pads are intentionally unconnected.
+- Obsolete traces were removed and the board was rerouted with Freerouting.
+- Tracks: 370.
+- Vias: 5.
+- B.Cu GND copper pour retained.
+- 52 narrow traces were widened to 0.2 mm.
 
-## DRC result
+## DRC
 
-- Total violations: 66
+- Total violations: 71
 - Errors: 33
-- Warnings: 33
+- Warnings: 38
 - Clearance: 30
 - Courtyards overlap: 3
-- Silkscreen overlap: 33
-- Track width: 0 after widening 44 narrow traces to 0.2 mm
+- Silkscreen overlap: 37
+- Via dangling: 1
+- Track width: 0
 
-## Remaining issues
+## 3D models
 
-- Clearance violations remain around the USB-C footprint and dense routing.
-- Courtyard overlaps occur between closely spaced passives and between the intentionally tight J5/J6 pair.
-- Silkscreen overlaps occur where GPIO labels are close to component bodies and pads.
-- Mechanical fit of the DevKit and TFT module was not independently verified beyond the schematic footprint data.
+- Attempted to attach standard KiCad 3D models to R1, R2, C1, C2, J1, J3, J5, J6, J7, J8, J9, J4, J2, and SW1.
+- Attachment failed because the live IPC backend is unavailable in this environment.
+- No 3D model coverage change was made.
+- A 3D model audit report is not complete; model coverage remains unverified.
 
 ## Status
 
-Layout and autorouting are complete, but the board is not yet DRC-clean. It is not approved for prototype fabrication until clearance, courtyard, and silkscreen violations are resolved or explicitly accepted. No PCB layout reuse from prior revisions was performed. No schematic electrical changes were made.
+Routing and placement refinement are complete, but the board is not DRC-clean and 3D model coverage was not completed. It is not approved for prototype fabrication. J2 remained exactly unchanged. No schematic electrical changes were made.

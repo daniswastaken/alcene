@@ -1,23 +1,26 @@
-# alcene-board-v1 DRC Report
+# alcene-board-v1 DRC Report — Revision R3
 
-- PCB: `X:\alcene\kicad\alcene-board-v1-layout-r2.kicad_pcb`
+- PCB: `X:\alcene\kicad\alcene-board-v1-layout-r3.kicad_pcb`
 - Date: 2026-10-20
 - KiCad version: 10.0.7
-- Report source: `X:\alcene\kicad\alcene-board-v1-layout-r2_drc_violations.json`
+- Report source: `X:\alcene\kicad\alcene-board-v1-layout-r3_drc_violations.json`
 
 ## Summary
 
-- Total violations: 66
+- Total violations: 71
 - Errors: 33
-- Warnings: 33
+- Warnings: 38
 
 ## By type
 
 - Clearance: 30
 - Courtyards overlap: 3
-- Silkscreen overlap: 33
+- Silkscreen overlap: 37
+- Via dangling: 1
 - Track width: 0
 
-## Interpretation
+## Notes
 
-The board is not DRC-clean. Clearance violations are concentrated around the USB-C footprint and dense routing. Courtyard overlaps occur between closely spaced passives and the intentionally tight J5/J6 pair. Silkscreen overlaps occur where GPIO labels are close to component bodies and pads. No track-width violations remain after widening 44 traces to 0.2 mm.
+- 52 traces were widened to 0.2 mm before this report.
+- J2 remained at its original coordinates and rotation.
+- The board is not DRC-clean.
