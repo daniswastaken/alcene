@@ -7652,12 +7652,6 @@
 		(uuid "113a0c54-b218-4c8a-9155-411bd977d1d4")
 	)
 	(junction
-		(at 116.84 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4670009d-79c6-427c-9e0c-076f87947105")
-	)
-	(junction
 		(at 45.72 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8169,16 +8163,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 104.14) (xy 116.84 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa8b0661-6223-4aa4-838e-8ea1b1db9f38")
-	)
-	(wire
-		(pts
 			(xy 74.93 68.58) (xy 74.93 50.8)
 		)
 		(stroke
@@ -8196,16 +8180,6 @@
 			(type default)
 		)
 		(uuid "ae4f2b11-d0b2-471b-abda-e970b88bfd29")
-	)
-	(wire
-		(pts
-			(xy 142.24 55.88) (xy 116.84 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b01a725e-407d-43ff-b019-1887f853e5cd")
 	)
 	(wire
 		(pts
@@ -8617,16 +8591,6 @@
 		)
 		(uuid "2f6a3bb7-4da6-4f3c-b80d-197c44e6e99e")
 	)
-	(label "LCD_CLK"
-		(at 35.56 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "31647200-0fb1-46a8-a5f1-350e8dfcb5e6")
-	)
 	(label "GPIO10"
 		(at 201.93 88.9 180)
 		(effects
@@ -8807,16 +8771,6 @@
 		)
 		(uuid "6192da7f-7d73-4345-a487-2ba5264514e6")
 	)
-	(label "LCD_BL"
-		(at 35.56 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "644d777f-f83b-49bb-a76b-0e2181630db5")
-	)
 	(label "GPIO42"
 		(at 232.41 66.04 0)
 		(effects
@@ -8866,16 +8820,6 @@
 			(justify left bottom)
 		)
 		(uuid "681323d4-4387-41bd-b7e9-abb63dfc8b5f")
-	)
-	(label "TOUCH_CLK"
-		(at 35.56 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6a29887d-4d60-4876-a2b0-5811a85fc49c")
 	)
 	(label "GPIO40"
 		(at 170.18 68.58 0)
@@ -8937,16 +8881,6 @@
 		)
 		(uuid "70d117d8-4167-48de-9220-af67640b6ead")
 	)
-	(label "LCD_CS"
-		(at 35.56 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "72571ab6-0c47-47c8-b0e1-dbf33cbf8c7c")
-	)
 	(label "GPIO19"
 		(at 201.93 55.88 180)
 		(effects
@@ -8966,16 +8900,6 @@
 			(justify right bottom)
 		)
 		(uuid "73ec559d-bf17-4e5d-a491-720d966f0ccb")
-	)
-	(label "LCD_DC"
-		(at 35.56 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "795edd07-75b4-4a61-9d32-5eba7a22e445")
 	)
 	(label "GPIO36"
 		(at 170.18 78.74 0)
@@ -9077,16 +9001,6 @@
 		)
 		(uuid "886c3abc-0f34-45e4-b913-c92c99fa112f")
 	)
-	(label "VCC"
-		(at 35.56 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "89e99d03-b795-46f6-9d9c-d73493eca08c")
-	)
 	(label "GPIO11"
 		(at 116.84 91.44 180)
 		(effects
@@ -9126,26 +9040,6 @@
 			(justify left bottom)
 		)
 		(uuid "903f5eb7-0fa6-4463-8ca4-185e5d64c3ac")
-	)
-	(label "TOUCH_CS"
-		(at 35.56 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "92785783-bea4-4d87-bb3b-7c8600c351ff")
-	)
-	(label "LCD_RST"
-		(at 35.56 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "97f7a1f9-39fc-4b00-b34c-91c37360f4af")
 	)
 	(label "GPIO6"
 		(at 201.93 63.5 180)
@@ -9267,16 +9161,6 @@
 		)
 		(uuid "b735fa26-0319-4b65-9a11-803c8025a0f5")
 	)
-	(label "TOUCH_DIN"
-		(at 35.56 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b76fd447-3a5d-469f-bfc0-9a5c65022466")
-	)
 	(label "VIN"
 		(at 198.12 121.92 0)
 		(effects
@@ -9296,16 +9180,6 @@
 			(justify right bottom)
 		)
 		(uuid "ba35c89e-a7d6-4847-8a9f-fce9f856eb21")
-	)
-	(label "LCD_MOSI"
-		(at 35.56 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb05e4c9-1314-4f92-a18f-9b942ba5e34b")
 	)
 	(label "GND"
 		(at 134.62 116.84 180)
@@ -9377,16 +9251,6 @@
 		)
 		(uuid "c5fd8cb5-dcd7-4112-b42b-ef3772ea0c84")
 	)
-	(label "TOUCH_DOUT"
-		(at 35.56 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c6025c9b-2ede-4534-ab98-5d9c3dcaa09f")
-	)
 	(label "GPIO13"
 		(at 116.84 96.52 180)
 		(effects
@@ -9446,16 +9310,6 @@
 			(justify right bottom)
 		)
 		(uuid "d64d0e23-8363-49a4-a325-1d643e073aed")
-	)
-	(label "LCD_MISO"
-		(at 35.56 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d704f96b-16bf-4f7c-90bd-3a6aa42fc6a4")
 	)
 	(label "GND"
 		(at 147.32 121.92 0)
@@ -9586,16 +9440,6 @@
 			(justify left bottom)
 		)
 		(uuid "fb6c9377-2ae2-4f25-94f0-6aa90440be62")
-	)
-	(label "TOUCH_IRQ"
-		(at 35.56 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd0553b3-21de-4dde-ae20-afe70230aab2")
 	)
 	(label "GPIO21"
 		(at 232.41 96.52 0)
@@ -9960,7 +9804,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/ (GRM21BR71H104KA01L)"
 			(at 39.37 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -9969,6 +9813,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
@@ -9980,6 +9825,60 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 39.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM21BR71H104KA01L"
+			(at 39.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50 V"
+			(at 39.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 39.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "+/-10%"
+			(at 39.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 (2012 metric)"
+			(at 39.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10041,7 +9940,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/ (GRM21BZ71E106KE15L)"
 			(at 45.72 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -10050,6 +9949,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
@@ -10061,6 +9961,60 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 45.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM21BZ71E106KE15L"
+			(at 45.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25 V"
+			(at 45.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 45.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "+/-10%"
+			(at 45.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 (2012 metric)"
+			(at 45.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11158,6 +11112,151 @@
 				)
 			)
 		)
+	)
+	(text "J4 ILI9341 TFT pin functions:\n1 3V3 (VCC)\n2 GND\n3 GPIO10 (LCD_CS)\n4 GPIO8 (LCD_RST)\n5 GPIO9 (LCD_DC)\n6 GPIO11 (LCD_MOSI)\n7 GPIO12 (LCD_CLK)\n8 3V3 (LCD_BL, owner-confirmed direct)\n9 GPIO13 (LCD_MISO)\n10 GPIO12 (TOUCH_CLK)\n11 GPIO14 (TOUCH_CS)\n12 GPIO11 (TOUCH_DIN)\n13 GPIO13 (TOUCH_DOUT)\n14 GPIO15 (TOUCH_IRQ)"
+		(exclude_from_sim no)
+		(at 20 50 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e43b5f50-c368-4de9-9814-4ca801c6465f")
+	)
+	(junction
+		(at 60.96 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5206ebb7-5c03-4f9a-8683-8f932ff4a50f")
+	)
+	(wire
+		(pts
+			(xy 129.54 104.14) (xy 129.54 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f88f4f-aa83-4898-adc7-79de9d6b8047")
+	)
+	(wire
+		(pts
+			(xy 129.54 106.68) (xy 114.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dbf35a7-04f2-4da1-8b81-9451be2dc9c3")
+	)
+	(wire
+		(pts
+			(xy 114.3 106.68) (xy 114.3 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd488dc7-8033-43fb-a29e-d98a0ef6e5c1")
+	)
+	(wire
+		(pts
+			(xy 114.3 104.14) (xy 116.84 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0eb02b1-897a-4fbc-900d-6db0e4360303")
+	)
+	(junction
+		(at 116.84 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1945797-024f-4346-899f-7b2d894c36ed")
+	)
+	(wire
+		(pts
+			(xy 142.24 55.88) (xy 142.24 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5eacccc-a78d-4d7a-9449-bdae1743f3f0")
+	)
+	(wire
+		(pts
+			(xy 114.3 53.34) (xy 114.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0e1b243-c171-43e5-80aa-387c7885ef5b")
+	)
+	(wire
+		(pts
+			(xy 114.3 55.88) (xy 116.84 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a457b585-1958-4be1-9a21-08b601e9d5c3")
+	)
+	(text "Power architecture notes:\nJ2 USB-C is the external power input.\nJ8 3V3 and J9 VIN are distribution outputs only. Do not inject external power through these headers.\nDo not connect J2 USB power and DevKit native USB power simultaneously.\nDevKit power inputs are mutually exclusive.\nDirect VBUS-to-VIN connection; reverse-current blocking is not provided."
+		(exclude_from_sim no)
+		(at 30 190 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2339d4dd-9782-46bd-be63-ef2314668fa6")
+	)
+	(text "USB-C VBUS INPUT"
+		(exclude_from_sim no)
+		(at 78 142 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a42249c-cac8-4c2c-8db0-c246d1ec8974")
+	)
+	(wire
+		(pts
+			(xy 142.24 53.34) (xy 142.24 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a41d37ff-0fbe-4a2e-a561-6c4a44fe44c7")
+	)
+	(wire
+		(pts
+			(xy 142.24 43.18) (xy 114.3 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c164cd78-b93d-4f7d-ac4f-214003157d87")
+	)
+	(wire
+		(pts
+			(xy 114.3 43.18) (xy 114.3 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296ed531-113e-41a7-824c-04a8917c9908")
 	)
 	(sheet_instances
 		(path "/"
