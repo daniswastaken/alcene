@@ -1,29 +1,21 @@
 {
   "board": "X:\\alcene\\kicad\\alcene-board-v1-layout-r3.kicad_pcb",
-  "timestamp": "2026-10-20T21:45:21",
-  "total_violations": 71,
+  "timestamp": "2026-10-20T22:07:53",
+  "total_violations": 48,
   "violation_counts": {
     "clearance": 30,
     "courtyards_overlap": 3,
+    "copper_edge_clearance": 4,
     "via_dangling": 1,
-    "silk_overlap": 37
+    "silk_edge_clearance": 2,
+    "silk_overlap": 8
   },
   "severity_counts": {
-    "error": 33,
-    "warning": 38,
+    "error": 37,
+    "warning": 11,
     "info": 0
   },
   "violations": [
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 41.525,
-        "y": 109.9662,
-        "unit": "mm"
-      }
-    },
     {
       "type": "clearance",
       "severity": "error",
@@ -39,6 +31,16 @@
       "severity": "error",
       "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
       "location": {
+        "x": 67.9125,
+        "y": 91.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
         "x": 41.525,
         "y": 109.9662,
         "unit": "mm"
@@ -49,8 +51,8 @@
       "severity": "error",
       "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
       "location": {
-        "x": 67.9125,
-        "y": 91.0,
+        "x": 41.525,
+        "y": 109.9662,
         "unit": "mm"
       }
     },
@@ -345,6 +347,46 @@
       }
     },
     {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4662 mm)",
+      "location": {
+        "x": 145.089999,
+        "y": 116.0662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4883 mm)",
+      "location": {
+        "x": 145.089999,
+        "y": 116.0662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4883 mm)",
+      "location": {
+        "x": 145.089999,
+        "y": 116.0662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.1662 mm)",
+      "location": {
+        "x": 145.089999,
+        "y": 116.0662,
+        "unit": "mm"
+      }
+    },
+    {
       "type": "via_dangling",
       "severity": "warning",
       "message": "Via is not connected or connected on only one layer",
@@ -355,12 +397,22 @@
       }
     },
     {
-      "type": "silk_overlap",
+      "type": "silk_edge_clearance",
       "severity": "warning",
-      "message": "Silkscreen clearance",
+      "message": "Silkscreen clipped by board edge",
       "location": {
-        "x": 41.62,
-        "y": 53.5,
+        "x": 145.089999,
+        "y": 116.0662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 145.089999,
+        "y": 116.0662,
         "unit": "mm"
       }
     },
@@ -389,8 +441,8 @@
       "severity": "warning",
       "message": "Silkscreen clearance",
       "location": {
-        "x": 49.0,
-        "y": 58.58,
+        "x": 44.38,
+        "y": 54.77,
         "unit": "mm"
       }
     },
@@ -399,8 +451,8 @@
       "severity": "warning",
       "message": "Silkscreen clearance",
       "location": {
-        "x": 92.99,
-        "y": 36.0,
+        "x": 41.62,
+        "y": 98.06,
         "unit": "mm"
       }
     },
@@ -409,8 +461,8 @@
       "severity": "warning",
       "message": "Silkscreen clearance",
       "location": {
-        "x": 90.0,
-        "y": 10.0,
+        "x": 41.62,
+        "y": 98.06,
         "unit": "mm"
       }
     },
@@ -419,8 +471,8 @@
       "severity": "warning",
       "message": "Silkscreen clearance",
       "location": {
-        "x": 64.38,
-        "y": 38.77,
+        "x": 44.38,
+        "y": 54.77,
         "unit": "mm"
       }
     },
@@ -439,288 +491,8 @@
       "severity": "warning",
       "message": "Silkscreen clearance",
       "location": {
-        "x": 39.0,
-        "y": 81.44,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 41.62,
-        "y": 54.77,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 41.62,
-        "y": 54.77,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 41.62,
-        "y": 54.77,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 41.62,
-        "y": 54.77,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 39.0,
-        "y": 91.6,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 41.62,
-        "y": 54.77,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 41.62,
-        "y": 54.77,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 39.0,
-        "y": 68.74,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 41.62,
-        "y": 98.06,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 44.38,
-        "y": 54.77,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 49.0,
-        "y": 86.52,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 49.0,
-        "y": 68.74,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 49.0,
-        "y": 71.28,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 49.0,
-        "y": 73.82,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 49.0,
-        "y": 61.12,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 49.0,
-        "y": 63.66,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 49.0,
-        "y": 66.2,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 49.0,
-        "y": 76.36,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 49.0,
-        "y": 78.9,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 49.0,
-        "y": 81.44,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 49.0,
-        "y": 83.98,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 49.0,
-        "y": 89.06,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 49.0,
-        "y": 91.6,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 49.0,
-        "y": 96.68,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 49.0,
-        "y": 94.14,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 41.62,
-        "y": 54.77,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 41.62,
-        "y": 98.06,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 44.38,
-        "y": 54.77,
+        "x": 64.38,
+        "y": 38.77,
         "unit": "mm"
       }
     }
