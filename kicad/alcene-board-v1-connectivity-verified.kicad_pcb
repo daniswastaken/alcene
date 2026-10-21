@@ -2220,7 +2220,7 @@
 		(uuid "c2e954d7-0b91-4e91-b76d-b904e85f4eaf")
 		(at 134.135715 38.75)
 		(property "Reference" "MH2"
-			(at 0 0 0)
+			(at 0.014285 2.85 0)
 			(layer "F.SilkS")
 			(uuid "1ace783d-1291-43ce-a268-b0230f927960")
 			(effects
@@ -3314,7 +3314,7 @@
 		(uuid "da804f9f-64e2-4ac7-b47b-92c648fbc243")
 		(at 88.935715 38.75)
 		(property "Reference" "MH1"
-			(at 0 0 0)
+			(at 0 2.85 0)
 			(layer "F.SilkS")
 			(uuid "a2a01ccd-432a-40ff-86b9-b1b5a7ef4abe")
 			(effects
@@ -4770,17 +4770,6 @@
 		(at 50.057142 96.68 0)
 		(layer "F.SilkS")
 		(uuid "93af9586-11fb-4c0d-afc3-36a56a11f285")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "TFT FAR-END SUPPORT: STANDOFF HEIGHT = J4 HEIGHT + 2.000 MM"
-		(at 95 32 0)
-		(layer "F.SilkS")
-		(uuid "c57051a9-e7bb-4e38-88e4-e33f061518b8")
 		(effects
 			(font
 				(size 1 1)
