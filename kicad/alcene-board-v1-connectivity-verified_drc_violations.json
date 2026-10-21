@@ -1,14 +1,15 @@
 {
   "board": "X:\\alcene\\kicad\\alcene-board-v1-connectivity-verified.kicad_pcb",
-  "timestamp": "2026-10-21T13:54:31",
-  "total_violations": 41,
+  "timestamp": "2026-10-21T14:24:23",
+  "total_violations": 42,
   "violation_counts": {
     "clearance": 30,
     "courtyards_overlap": 3,
+    "copper_edge_clearance": 1,
     "silk_overlap": 8
   },
   "severity_counts": {
-    "error": 33,
+    "error": 34,
     "warning": 8,
     "info": 0
   },
@@ -26,290 +27,290 @@
     {
       "type": "clearance",
       "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 41.525,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 41.525,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 43.225,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 43.225,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 43.225,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 43.225,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 44.075,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 44.075,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 45.775,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 45.775,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 46.625,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 46.625,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 46.625,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 46.625,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 47.475,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 47.475,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 46.625,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 46.625,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 44.925,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 44.925,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 44.925,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 44.925,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 43.225,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 43.225,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 43.225,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 43.225,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 42.375,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 42.375,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
       "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1000 mm)",
       "location": {
         "x": 69.95,
         "y": 99.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 41.525,
-        "y": 109.9662,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 41.525,
-        "y": 109.9662,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 43.225,
-        "y": 109.9662,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 43.225,
-        "y": 109.9662,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 43.225,
-        "y": 109.9662,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 43.225,
-        "y": 109.9662,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 44.075,
-        "y": 109.9662,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 44.075,
-        "y": 109.9662,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 45.775,
-        "y": 109.9662,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 45.775,
-        "y": 109.9662,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 46.625,
-        "y": 109.9662,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 46.625,
-        "y": 109.9662,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 46.625,
-        "y": 109.9662,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 46.625,
-        "y": 109.9662,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 47.475,
-        "y": 111.3162,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 47.475,
-        "y": 111.3162,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 46.625,
-        "y": 111.3162,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 46.625,
-        "y": 111.3162,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 44.925,
-        "y": 111.3162,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 44.925,
-        "y": 111.3162,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 44.925,
-        "y": 111.3162,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 44.925,
-        "y": 111.3162,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 43.225,
-        "y": 111.3162,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 43.225,
-        "y": 111.3162,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 43.225,
-        "y": 111.3162,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 43.225,
-        "y": 111.3162,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 42.375,
-        "y": 111.3162,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "clearance",
-      "severity": "error",
-      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
-      "location": {
-        "x": 42.375,
-        "y": 111.3162,
         "unit": "mm"
       }
     },
@@ -340,6 +341,16 @@
       "location": {
         "x": 45.54,
         "y": 53.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 139.259999,
+        "y": 31.68475,
         "unit": "mm"
       }
     },

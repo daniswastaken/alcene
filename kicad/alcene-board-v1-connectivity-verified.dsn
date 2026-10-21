@@ -1,4 +1,4 @@
-(pcb "C:\Users\daniswastaken\AppData\Local\Temp\kicad-mcp-autoroute-flxz2qlc\alcene-board-v1-connectivity-verified.dsn"
+(pcb "C:\Users\daniswastaken\AppData\Local\Temp\kicad-mcp-autoroute-czodoodz\alcene-board-v1-connectivity-verified.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -21,8 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  143736 -119076  33735.7 -119076  33735.7 -31076.2  143736 -31076.2
-            143736 -119076)
+      (path pcb 0  144963 -119076  33735.7 -119076  33735.7 -31684.8  144963 -31684.8
+            144963 -119076)
     )
     (plane GND (polygon B.Cu 0  33500 -29500  151500 -29500  151500 -117500  33500 -117500
             33500 -29500))
@@ -50,7 +50,7 @@
       (place SW1 57000 -113400 front 90 (PN "ESP32-S3 Reset (NO momentary)"))
     )
     (component Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical
-      (place J4 134500 -113000 front -90 (PN ILI9341_TFT_14pin))
+      (place J4 128570 -113250 front -90 (PN ILI9341_TFT_14pin))
     )
     (component Connector_PinSocket_2.54mm:PinSocket_1x22_P2.54mm_Vertical
       (place J3 82400 -48500 front 0 (PN "ESP32-S3-DevKitC-1_J3"))

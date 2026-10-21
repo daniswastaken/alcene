@@ -28,3 +28,4 @@ venv/
 # KiCad local history and MCP backups (generated)
 kicad/.history/
 kicad/.mcp-backups/
+kicad/archive/
