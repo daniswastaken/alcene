@@ -1,6 +1,6 @@
 {
   "board": "X:/alcene/kicad/alcene-board-v1-final-release.kicad_pcb",
-  "timestamp": "2026-10-22T19:25:09",
+  "timestamp": "2026-10-22T19:33:13",
   "total_violations": 38,
   "violation_counts": {
     "clearance": 29,
@@ -18,8 +18,8 @@
       "severity": "error",
       "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
       "location": {
-        "x": 41.525,
-        "y": 109.9662,
+        "x": 67.9125,
+        "y": 91.0,
         "unit": "mm"
       }
     },
@@ -28,8 +28,8 @@
       "severity": "error",
       "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
       "location": {
-        "x": 67.9125,
-        "y": 91.0,
+        "x": 41.525,
+        "y": 109.9662,
         "unit": "mm"
       }
     },
