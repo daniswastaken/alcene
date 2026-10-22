@@ -21,3 +21,4 @@
 - No pad-to-track, track-to-track, via, through-hole, or copper-to-edge clearance violation remains.
 - No DRC rule was globally weakened.
 - The C1/C2 clearance was corrected with a minimal 0.20 mm footprint movement and local track reroute.
+- Fresh DRC on final PCB: 40 violations, 32 errors, 8 warnings.

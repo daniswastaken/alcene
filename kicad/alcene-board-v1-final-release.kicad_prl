@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "alcene-board-v1-release-candidate.kicad_prl",
+    "filename": "alcene-board-v1-final-release.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

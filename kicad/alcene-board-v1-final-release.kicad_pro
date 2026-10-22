@@ -267,7 +267,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "alcene-board-v1-release-candidate.kicad_pro",
+    "filename": "alcene-board-v1-final-release.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -316,8 +316,8 @@
     "legacy_lib_list": [],
     "top_level_sheets": [
       {
-        "filename": "alcene-board-v1-release-candidate.kicad_sch",
-        "name": "alcene-board-v1-release-candidate",
+        "filename": "alcene-board-v1-final-release.kicad_sch",
+        "name": "alcene-board-v1-final-release",
         "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ]

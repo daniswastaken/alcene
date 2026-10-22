@@ -3,7 +3,7 @@
 ## Summary
 
 - Schematic: `X:\alcene\kicad\alcene-board-v1.kicad_sch`
-- PCB: `X:\alcene\kicad\alcene-board-v1-final-qc.kicad_pcb`
+- PCB: `X:\alcene\kicad\alcene-board-v1-final-release.kicad_pcb`
 - ERC: 0 errors, 0 warnings, 0 info
 - Component correspondence: PASS
 - Pad-to-net comparison: PASS
@@ -46,3 +46,5 @@ J4 pins 1-14: 3V3, GND, GPIO10, GPIO8, GPIO9, GPIO11, GPIO12, 3V3, GPIO13, GPIO1
 - Mounting holes MH1 and MH2 exist only on the PCB and are not schematic components.
 - USB-C D+, D-, and SBU pads are intentionally unconnected per schematic no-connects.
 - No schematic changes were made.
+- C2 was moved 0.20 mm to correct a 0.10 mm pad-to-pad clearance; net assignments remain correct.
+- C1 pad 2 to C2 pad 1 clearance is now 0.30 mm.

@@ -3172,7 +3172,7 @@
 		(descr "Through hole straight pin header, 2x04, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x04 2.54mm double row")
 		(property "Reference" "J7"
-			(at 1.27 -1.61 270)
+			(at 1.3 -2.4 270)
 			(layer "F.SilkS")
 			(uuid "81e8113b-f93a-4443-ba7b-b92159743b55")
 			(effects
