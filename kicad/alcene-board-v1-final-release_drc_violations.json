@@ -1,6 +1,6 @@
 {
   "board": "X:/alcene/kicad/alcene-board-v1-final-release.kicad_pcb",
-  "timestamp": "2026-10-22T19:21:10",
+  "timestamp": "2026-10-22T19:25:09",
   "total_violations": 38,
   "violation_counts": {
     "clearance": 29,
@@ -18,8 +18,8 @@
       "severity": "error",
       "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
       "location": {
-        "x": 67.9125,
-        "y": 91.0,
+        "x": 41.525,
+        "y": 109.9662,
         "unit": "mm"
       }
     },
@@ -28,8 +28,8 @@
       "severity": "error",
       "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
       "location": {
-        "x": 41.525,
-        "y": 109.9662,
+        "x": 67.9125,
+        "y": 91.0,
         "unit": "mm"
       }
     },
@@ -348,26 +348,6 @@
       "severity": "warning",
       "message": "Silkscreen clearance",
       "location": {
-        "x": 44.38,
-        "y": 54.77,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
-        "x": 41.62,
-        "y": 54.77,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_overlap",
-      "severity": "warning",
-      "message": "Silkscreen clearance",
-      "location": {
         "x": 41.62,
         "y": 98.06,
         "unit": "mm"
@@ -388,8 +368,28 @@
       "severity": "warning",
       "message": "Silkscreen clearance",
       "location": {
+        "x": 44.38,
+        "y": 54.77,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
         "x": 41.62,
         "y": 98.06,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 41.62,
+        "y": 54.77,
         "unit": "mm"
       }
     }
