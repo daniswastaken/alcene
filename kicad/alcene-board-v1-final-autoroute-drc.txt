@@ -1,0 +1,514 @@
+** Drc report for alcene-board-v1-before-j4-flip-backup.kicad_pcb **
+** Created on 2026-10-24T10:54:51 **
+** Report includes: Errors, Warnings **
+
+** Found 121 DRC violations **
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(41.2889 mm, 108.5327 mm): Via [GPIO10] on F.Cu - B.Cu
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(41.2889 mm, 108.5327 mm): Track [GPIO10] on B.Cu, length 20.3016 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(41.2889 mm, 88.2311 mm): Track [GPIO10] on B.Cu, length 2.4199 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(41.2889 mm, 108.5327 mm): Via [GPIO10] on F.Cu - B.Cu
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(57.0000 mm, 84.0600 mm): Track [GPIO9] on B.Cu, length 1.5777 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(110.6657 mm, 101.5918 mm): Track [GPIO12] on B.Cu, length 11.6582 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(109.5696 mm, 68.3087 mm): Track [GPIO15] on B.Cu, length 26.6948 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(57.0000 mm, 66.2800 mm): Track [GPIO15] on B.Cu, length 1.5777 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(128.4457 mm, 87.1848 mm): Track [GPIO15] on B.Cu, length 26.0652 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(44.1956 mm, 67.3956 mm): Track [GPIO15] on B.Cu, length 1.6908 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(55.8844 mm, 67.3956 mm): Track [GPIO15] on B.Cu, length 11.6888 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(109.5696 mm, 68.3087 mm): Via [GPIO15] on F.Cu - B.Cu
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(109.5696 mm, 68.3087 mm): Via [GPIO15] on F.Cu - B.Cu
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(57.0000 mm, 96.7600 mm): Track [GPIO14] on B.Cu, length 1.7969 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(44.1906 mm, 95.4894 mm): Track [GPIO14] on B.Cu, length 1.6838 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(55.7294 mm, 95.4894 mm): Track [GPIO14] on B.Cu, length 11.5388 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(57.0000 mm, 94.2200 mm): Track [GPIO13] on B.Cu, length 1.7969 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(44.1906 mm, 92.9494 mm): Track [GPIO13] on B.Cu, length 1.6838 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(55.7294 mm, 92.9494 mm): Track [GPIO13] on B.Cu, length 11.5388 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(117.1260 mm, 114.4097 mm): Track [GPIO12] on B.Cu, length 5.3006 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(111.8254 mm, 114.4097 mm): Track [GPIO12] on B.Cu, length 1.6401 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(55.7294 mm, 90.4094 mm): Track [GPIO12] on B.Cu, length 11.5388 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(44.1906 mm, 90.4094 mm): Track [GPIO12] on B.Cu, length 1.6838 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(100.6362 mm, 91.5623 mm): Track [GPIO12] on B.Cu, length 14.1839 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(118.2857 mm, 113.2500 mm): Track [GPIO12] on B.Cu, length 1.6401 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(100.6362 mm, 91.5623 mm): Via [GPIO12] on F.Cu - B.Cu
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(57.0000 mm, 91.6800 mm): Track [GPIO12] on B.Cu, length 1.7969 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(100.6362 mm, 91.5623 mm): Via [GPIO12] on F.Cu - B.Cu
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(82.3635 mm, 85.3669 mm): Track [GPIO11] on B.Cu, length 0.5983 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(81.7652 mm, 85.3669 mm): Track [GPIO11] on B.Cu, length 0.3647 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(81.5074 mm, 85.1090 mm): Track [GPIO11] on B.Cu, length 0.3377 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(108.1257 mm, 110.6806 mm): Track [GPIO11] on B.Cu, length 35.7990 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(108.1257 mm, 113.2500 mm): Track [GPIO11] on B.Cu, length 2.5694 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(82.8120 mm, 85.3669 mm): Track [GPIO11] on B.Cu, length 0.4485 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(81.2686 mm, 85.3478 mm): Via [GPIO11] on F.Cu - B.Cu
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(81.2686 mm, 85.3478 mm): Via [GPIO11] on F.Cu - B.Cu
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(69.7853 mm, 89.6556 mm): Track [GPIO9] on B.Cu, length 1.2533 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(93.2861 mm, 114.4097 mm): Track [GPIO9] on B.Cu, length 11.1399 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(55.8844 mm, 85.1756 mm): Track [GPIO9] on B.Cu, length 11.6888 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(69.7853 mm, 90.9089 mm): Track [GPIO9] on B.Cu, length 33.2352 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(44.1956 mm, 85.1756 mm): Track [GPIO9] on B.Cu, length 1.6908 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(57.0000 mm, 84.0600 mm): Track [GPIO9] on B.Cu, length 7.2087 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(64.2087 mm, 84.0600 mm): Track [GPIO9] on B.Cu, length 5.7047 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(68.2425 mm, 88.0938 mm): Track [GPIO9] on B.Cu, length 1.5532 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(104.4260 mm, 114.4097 mm): Track [GPIO9] on B.Cu, length 1.6401 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.2164 mm)
+    Local override; error
+    @(69.3408 mm, 89.1921 mm): Track [GPIO9] on B.Cu, length 0.1467 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.1126 mm)
+    Local override; error
+    @(69.4875 mm, 89.1921 mm): Track [GPIO9] on B.Cu, length 0.1467 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(70.1855 mm, 88.7348 mm): Track [GPIO8] on B.Cu, length 13.1454 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(57.0000 mm, 76.4400 mm): Track [GPIO8] on B.Cu, length 1.1901 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(70.1855 mm, 88.4354 mm): Track [GPIO8] on B.Cu, length 0.1655 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(69.8877 mm, 88.1376 mm): Track [GPIO8] on B.Cu, length 0.4212 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.1126 mm)
+    Local override; error
+    @(69.6342 mm, 89.1921 mm): Track [GPIO9] on B.Cu, length 0.0757 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(70.1855 mm, 88.6009 mm): Track [GPIO8] on B.Cu, length 0.1339 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(87.8257 mm, 98.0300 mm): Track [GPIO8] on B.Cu, length 21.5243 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(79.4807 mm, 98.0300 mm): Track [GPIO8] on B.Cu, length 8.3450 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(58.1901 mm, 76.4400 mm): Track [GPIO8] on B.Cu, length 16.5429 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1833 mm)
+    Local override; error
+    @(46.3992 mm, 75.2098 mm): Track [GPIO8] on F.Cu, length 0.1694 mm
+    @(55.8498 mm, 74.7692 mm): Track [GPIO38] on F.Cu, length 9.3606 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1833 mm)
+    Local override; error
+    @(46.2794 mm, 75.0900 mm): Track [GPIO8] on F.Cu, length 1.0528 mm
+    @(55.8498 mm, 74.7692 mm): Track [GPIO38] on F.Cu, length 9.3606 mm
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(57.0000 mm, 86.6000 mm): Track [GPIO10] on B.Cu, length 1.5777 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(55.8844 mm, 87.7156 mm): Track [GPIO10] on B.Cu, length 11.6888 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(44.1956 mm, 87.7156 mm): Track [GPIO10] on B.Cu, length 1.6908 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.1126 mm)
+    Local override; error
+    @(69.6877 mm, 89.2456 mm): Track [GPIO9] on B.Cu, length 0.3124 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(113.2057 mm, 73.3642 mm): Track [3V3] on B.Cu, length 26.1984 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(94.6806 mm, 54.8391 mm): Track [3V3] on B.Cu, length 1.0639 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(113.2057 mm, 113.2500 mm): Track [3V3] on B.Cu, length 39.8858 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(94.6806 mm, 53.7752 mm): Via [3V3] on F.Cu - B.Cu
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(94.6806 mm, 53.7752 mm): Via [3V3] on F.Cu - B.Cu
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(58.9939 mm, 76.5606 mm): Track [RST] on B.Cu, length 20.9867 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(77.4167 mm, 94.9834 mm): Track [RST] on B.Cu, length 26.0538 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(57.0000 mm, 110.3770 mm): Via [RST] on F.Cu - B.Cu
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(57.0000 mm, 110.3770 mm): Via [RST] on F.Cu - B.Cu
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(77.4167 mm, 94.9834 mm): Via [RST] on F.Cu - B.Cu
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(77.4167 mm, 94.9834 mm): Via [RST] on F.Cu - B.Cu
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1833 mm)
+    Local override; error
+    @(55.8498 mm, 87.4692 mm): Track [GPIO45] on F.Cu, length 9.3606 mm
+    @(46.3992 mm, 87.9098 mm): Track [GPIO11] on F.Cu, length 0.1694 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1833 mm)
+    Local override; error
+    @(46.4892 mm, 87.4692 mm): Track [GPIO45] on F.Cu, length 1.3424 mm
+    @(46.3992 mm, 87.9098 mm): Track [GPIO11] on F.Cu, length 0.1694 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1833 mm)
+    Local override; error
+    @(46.4892 mm, 74.7692 mm): Track [GPIO38] on F.Cu, length 1.3424 mm
+    @(46.3992 mm, 75.2098 mm): Track [GPIO8] on F.Cu, length 0.1694 mm
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0825 mm)
+    Local override; error
+    @(57.0000 mm, 47.0400 mm): Track [3V3] on B.Cu, length 1.4600 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0825 mm)
+    Local override; error
+    @(50.0000 mm, 40.0400 mm): Track [3V3] on B.Cu, length 9.8995 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(67.9125 mm, 91.0000 mm): Pad 2 [GND] of R1 on F.Cu
+    @(69.0875 mm, 91.0000 mm): Pad 1 [Net-(J2-PadB5)] of R2 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(41.5250 mm, 109.9662 mm): PTH pad A1 [GND] of J2
+    @(42.3750 mm, 109.9662 mm): PTH pad A4 [VIN] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(41.5250 mm, 109.9662 mm): PTH pad A1 [GND] of J2
+    @(42.3750 mm, 109.9662 mm): PTH pad A4 [VIN] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(43.2250 mm, 109.9662 mm): PTH pad A5 [Net-(J2-PadA5)] of J2
+    @(42.3750 mm, 109.9662 mm): PTH pad A4 [VIN] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(43.2250 mm, 109.9662 mm): PTH pad A5 [Net-(J2-PadA5)] of J2
+    @(44.0750 mm, 109.9662 mm): PTH pad A6 [<no net>] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(43.2250 mm, 109.9662 mm): PTH pad A5 [Net-(J2-PadA5)] of J2
+    @(42.3750 mm, 109.9662 mm): PTH pad A4 [VIN] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(43.2250 mm, 109.9662 mm): PTH pad A5 [Net-(J2-PadA5)] of J2
+    @(44.0750 mm, 109.9662 mm): PTH pad A6 [<no net>] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(44.0750 mm, 109.9662 mm): PTH pad A6 [<no net>] of J2
+    @(44.9250 mm, 109.9662 mm): PTH pad A7 [<no net>] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(44.0750 mm, 109.9662 mm): PTH pad A6 [<no net>] of J2
+    @(44.9250 mm, 109.9662 mm): PTH pad A7 [<no net>] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(45.7750 mm, 109.9662 mm): PTH pad A8 [<no net>] of J2
+    @(44.9250 mm, 109.9662 mm): PTH pad A7 [<no net>] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(45.7750 mm, 109.9662 mm): PTH pad A8 [<no net>] of J2
+    @(44.9250 mm, 109.9662 mm): PTH pad A7 [<no net>] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(46.6250 mm, 109.9662 mm): PTH pad A9 [VIN] of J2
+    @(45.7750 mm, 109.9662 mm): PTH pad A8 [<no net>] of J2
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(95.4257 mm, 113.2500 mm): PTH pad 1 [3V3] of J4
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(46.6250 mm, 109.9662 mm): PTH pad A9 [VIN] of J2
+    @(47.4750 mm, 109.9662 mm): PTH pad A12 [GND] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(46.6250 mm, 109.9662 mm): PTH pad A9 [VIN] of J2
+    @(45.7750 mm, 109.9662 mm): PTH pad A8 [<no net>] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(46.6250 mm, 109.9662 mm): PTH pad A9 [VIN] of J2
+    @(47.4750 mm, 109.9662 mm): PTH pad A12 [GND] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(47.4750 mm, 111.3162 mm): PTH pad B1 [GND] of J2
+    @(46.6250 mm, 111.3162 mm): PTH pad B4 [VIN] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(47.4750 mm, 111.3162 mm): PTH pad B1 [GND] of J2
+    @(46.6250 mm, 111.3162 mm): PTH pad B4 [VIN] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(46.6250 mm, 111.3162 mm): PTH pad B4 [VIN] of J2
+    @(45.7750 mm, 111.3162 mm): PTH pad B5 [Net-(J2-PadB5)] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(46.6250 mm, 111.3162 mm): PTH pad B4 [VIN] of J2
+    @(45.7750 mm, 111.3162 mm): PTH pad B5 [Net-(J2-PadB5)] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(44.9250 mm, 111.3162 mm): PTH pad B6 [<no net>] of J2
+    @(45.7750 mm, 111.3162 mm): PTH pad B5 [Net-(J2-PadB5)] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(44.9250 mm, 111.3162 mm): PTH pad B6 [<no net>] of J2
+    @(44.0750 mm, 111.3162 mm): PTH pad B7 [<no net>] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(44.9250 mm, 111.3162 mm): PTH pad B6 [<no net>] of J2
+    @(45.7750 mm, 111.3162 mm): PTH pad B5 [Net-(J2-PadB5)] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(44.9250 mm, 111.3162 mm): PTH pad B6 [<no net>] of J2
+    @(44.0750 mm, 111.3162 mm): PTH pad B7 [<no net>] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(43.2250 mm, 111.3162 mm): PTH pad B8 [<no net>] of J2
+    @(44.0750 mm, 111.3162 mm): PTH pad B7 [<no net>] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(43.2250 mm, 111.3162 mm): PTH pad B8 [<no net>] of J2
+    @(42.3750 mm, 111.3162 mm): PTH pad B9 [VIN] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(43.2250 mm, 111.3162 mm): PTH pad B8 [<no net>] of J2
+    @(44.0750 mm, 111.3162 mm): PTH pad B7 [<no net>] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(43.2250 mm, 111.3162 mm): PTH pad B8 [<no net>] of J2
+    @(42.3750 mm, 111.3162 mm): PTH pad B9 [VIN] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(42.3750 mm, 111.3162 mm): PTH pad B9 [VIN] of J2
+    @(41.5250 mm, 111.3162 mm): PTH pad B12 [GND] of J2
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(125.9057 mm, 113.2500 mm): PTH pad 13 [GPIO13] of J4
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(42.3750 mm, 111.3162 mm): PTH pad B9 [VIN] of J2
+    @(41.5250 mm, 111.3162 mm): PTH pad B12 [GND] of J2
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(125.9057 mm, 113.2500 mm): PTH pad 13 [GPIO13] of J4
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(67.0000 mm, 91.0000 mm): Footprint R1
+    @(70.0000 mm, 91.0000 mm): Footprint R2
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(72.2000 mm, 99.0000 mm): Footprint C2
+    @(69.0000 mm, 99.0000 mm): Footprint C1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(45.5400 mm, 53.5000 mm): Footprint J6
+    @(43.0000 mm, 53.5000 mm): Footprint J5
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(95.4257 mm, 113.2500 mm): PTH pad 1 [3V3] of J4
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(125.9057 mm, 113.2500 mm): PTH pad 13 [GPIO13] of J4
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(41.6200 mm, 54.7700 mm): Segment of J5 on F.Silkscreen
+    @(44.1600 mm, 54.7700 mm): Segment of J6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(41.6200 mm, 98.0600 mm): Segment of J5 on F.Silkscreen
+    @(44.1600 mm, 54.7700 mm): Segment of J6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(44.3800 mm, 54.7700 mm): Segment of J5 on F.Silkscreen
+    @(44.1600 mm, 98.0600 mm): Segment of J6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(44.3800 mm, 54.7700 mm): Segment of J5 on F.Silkscreen
+    @(44.1600 mm, 54.7700 mm): Segment of J6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(41.6200 mm, 98.0600 mm): Segment of J5 on F.Silkscreen
+    @(44.1600 mm, 98.0600 mm): Segment of J6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(41.6200 mm, 54.7700 mm): Segment of J5 on F.Silkscreen
+    @(44.1600 mm, 54.7700 mm): Segment of J6 on F.Silkscreen
+
+** Found 3 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(47.4750 mm, 111.3162 mm): PTH pad B1 [GND] of J2
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(82.4000 mm, 101.8400 mm): PTH pad 22 [GND] of J3
+    @(97.9657 mm, 113.2500 mm): PTH pad 2 [GND] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(57.0000 mm, 99.3000 mm): Track [VIN] on F.Cu, length 0.4243 mm
+    @(46.6250 mm, 111.3160 mm): Track [VIN] on B.Cu, length 1.6410 mm
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

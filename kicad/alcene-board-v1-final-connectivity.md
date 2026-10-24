@@ -1,29 +1,13 @@
-# alcene-board-v1 Final Connectivity Report
+# Final Connectivity Report
 
-## Net-level result
+Corrected board: `X:\alcene\kicad\alcene-board-v1-j4-corrected.kicad_pcb`
 
-- Nets in PCB: 43 named/unnamed net entries including no-connect pads.
-- Required nets routed: all schematic nets except intentional no-connect USB-C D+/D-/SBU pads.
-- DRC unconnected items: 0.
-- Copper zones refilled: yes, 1 GND zone on B.Cu.
+Backup: `X:\alcene\kicad\alcene-board-v1-before-j4-flip-backup.kicad_pcb`
 
-## Critical net physical connectivity
+J4 is rotated 180 degrees in plane. Pad 1/3V3 is leftmost and pad 14/GPIO15 is rightmost. All 14 J4 pads match the schematic net assignments.
 
-| Net | Expected pads | Physical connection | Result |
-|---|---:|---|---|
-| GND | 26 | Tracks plus B.Cu zone | PASS |
-| 3V3 | 12 | Tracks | PASS |
-| VIN | 15 | Tracks and vias | PASS |
-| Net-(J2-PadA5) | 2 | Tracks and via | PASS |
-| Net-(J2-PadB5) | 2 | Tracks and via | PASS |
-| RST | 2 | Track | PASS |
-| GPIO0 through GPIO48 as assigned | 2-4 | Tracks | PASS |
+Affected TFT/touch nets were rerouted and connected to their ESP32 and GPIO breakout endpoints. Shared nets GPIO11, GPIO12, and GPIO13 retain both TFT/touch functions.
 
-## Topology notes
+USB-C power, CC, ground, 3V3, reset, and power header architecture were preserved. J2 was not moved. Board outline and non-J4 footprint positions were preserved. Only F.Cu and B.Cu are used.
 
-- Direct VBUS to VIN architecture preserved; no series diode or regulator added.
-- CC1 and CC2 remain independent 5.1 kOhm sink pulldowns.
-- J9 and J8 are distribution outputs only.
-- J6 intentionally omits GPIO19; GPIO19 is routed only to J5 pin 1.
-- C2 shifted 0.20 mm right; VIN and GND connectivity preserved.
-- C1 pad 2 to C2 pad 1 clearance is 0.30 mm.
+ERC: 0 violations. DRC: 121 violations, none are shorts or dangling tracks. Final unrouted count: 0.
