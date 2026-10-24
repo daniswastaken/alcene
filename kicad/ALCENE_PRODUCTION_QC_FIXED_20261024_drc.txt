@@ -1,12 +1,36 @@
 ** Drc report for ALCENE_PRODUCTION_QC_FIXED_20261024.kicad_pcb **
-** Created on 2026-10-24T16:37:23 **
+** Created on 2026-10-24T17:31:32 **
 ** Report includes: Errors, Warnings **
 
-** Found 38 DRC violations **
-[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+** Found 45 DRC violations **
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
     Local override; error
-    @(41.5250 mm, 109.9662 mm): PTH pad A1 [GND] of J2
-    @(42.3750 mm, 109.9662 mm): PTH pad A4 [VIN] of J2
+    @(58.9939 mm, 55.5739 mm): Track [RST] on B.Cu, length 2.8198 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(77.4167 mm, 94.9834 mm): Track [RST] on B.Cu, length 26.0538 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(57.0000 mm, 110.3770 mm): Via [RST] on F.Cu - B.Cu
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(77.4167 mm, 94.9834 mm): Via [RST] on F.Cu - B.Cu
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(57.0000 mm, 110.3770 mm): Via [RST] on F.Cu - B.Cu
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(77.4167 mm, 94.9834 mm): Via [RST] on F.Cu - B.Cu
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)
+    Local override; error
+    @(58.9939 mm, 76.5606 mm): Track [RST] on B.Cu, length 20.9867 mm
+    @(33.7357 mm, 32.0762 mm): Zone [GND] on B.Cu, priority 0
 [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
     Local override; error
     @(67.9125 mm, 91.0000 mm): Pad 2 [GND] of R1 on F.Cu
@@ -17,12 +41,16 @@
     @(42.3750 mm, 109.9662 mm): PTH pad A4 [VIN] of J2
 [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
     Local override; error
-    @(43.2250 mm, 109.9662 mm): PTH pad A5 [Net-(J2-PadA5)] of J2
+    @(41.5250 mm, 109.9662 mm): PTH pad A1 [GND] of J2
     @(42.3750 mm, 109.9662 mm): PTH pad A4 [VIN] of J2
 [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
     Local override; error
     @(43.2250 mm, 109.9662 mm): PTH pad A5 [Net-(J2-PadA5)] of J2
     @(44.0750 mm, 109.9662 mm): PTH pad A6 [<no net>] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(43.2250 mm, 109.9662 mm): PTH pad A5 [Net-(J2-PadA5)] of J2
+    @(42.3750 mm, 109.9662 mm): PTH pad A4 [VIN] of J2
 [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
     Local override; error
     @(43.2250 mm, 109.9662 mm): PTH pad A5 [Net-(J2-PadA5)] of J2
@@ -90,19 +118,19 @@
 [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
     Local override; error
     @(44.9250 mm, 111.3162 mm): PTH pad B6 [<no net>] of J2
-    @(45.7750 mm, 111.3162 mm): PTH pad B5 [Net-(J2-PadB5)] of J2
+    @(44.0750 mm, 111.3162 mm): PTH pad B7 [<no net>] of J2
 [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
     Local override; error
     @(44.9250 mm, 111.3162 mm): PTH pad B6 [<no net>] of J2
-    @(44.0750 mm, 111.3162 mm): PTH pad B7 [<no net>] of J2
-[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
-    Local override; error
-    @(43.2250 mm, 111.3162 mm): PTH pad B8 [<no net>] of J2
-    @(44.0750 mm, 111.3162 mm): PTH pad B7 [<no net>] of J2
+    @(45.7750 mm, 111.3162 mm): PTH pad B5 [Net-(J2-PadB5)] of J2
 [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
     Local override; error
     @(43.2250 mm, 111.3162 mm): PTH pad B8 [<no net>] of J2
     @(42.3750 mm, 111.3162 mm): PTH pad B9 [VIN] of J2
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(43.2250 mm, 111.3162 mm): PTH pad B8 [<no net>] of J2
+    @(44.0750 mm, 111.3162 mm): PTH pad B7 [<no net>] of J2
 [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
     Local override; error
     @(43.2250 mm, 111.3162 mm): PTH pad B8 [<no net>] of J2
@@ -156,11 +184,7 @@
     @(44.3800 mm, 54.7700 mm): Segment of J5 on F.Silkscreen
     @(44.1600 mm, 98.0600 mm): Segment of J6 on F.Silkscreen
 
-** Found 1 unconnected pads **
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(57.0000 mm, 53.5800 mm): PTH pad 3 [RST] of J1
-    @(57.0000 mm, 111.3000 mm): Pad 2 [RST] of SW1 on F.Cu
+** Found 0 unconnected pads **
 
 ** Found 0 Footprint errors **
 

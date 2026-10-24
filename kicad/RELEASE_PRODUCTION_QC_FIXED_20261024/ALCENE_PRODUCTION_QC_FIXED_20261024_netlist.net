@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>X:\alcene\kicad\alcene-board-v1.kicad_sch</source>
-    <date>2026-10-24T16:38:09</date>
+    <date>2026-10-24T17:11:41</date>
     <tool>Eeschema 10.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -47,7 +47,7 @@
       <property name="Dielectric" value="X7R"/>
       <property name="Tolerance" value="+/-10%"/>
       <property name="Package" value="0805 (2012 metric)"/>
-      <property name="Sheetname" value="alcene-board-v1"/>
+      <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="alcene-board-v1.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
@@ -85,7 +85,7 @@
       <property name="Dielectric" value="X7R"/>
       <property name="Tolerance" value="+/-10%"/>
       <property name="Package" value="0805 (2012 metric)"/>
-      <property name="Sheetname" value="alcene-board-v1"/>
+      <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="alcene-board-v1.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
@@ -110,7 +110,7 @@
         <field name="Description">Generic connector, single row, 01x22, script generated</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x22_Socket" description="Generic connector, single row, 01x22, script generated"/>
-      <property name="Sheetname" value="alcene-board-v1"/>
+      <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="alcene-board-v1.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
@@ -156,7 +156,7 @@
         <field name="Description">USB 2.0-only 16P Type-C Receptacle connector</field>
       </fields>
       <libsource lib="Connector" part="USB_C_Receptacle_USB2.0_16P" description="USB 2.0-only 16P Type-C Receptacle connector"/>
-      <property name="Sheetname" value="alcene-board-v1"/>
+      <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="alcene-board-v1.kicad_sch"/>
       <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
       <property name="ki_fp_filters" value="USB*C*Receptacle*"/>
@@ -196,7 +196,7 @@
         <field name="Description">Generic connector, single row, 01x22, script generated</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x22_Socket" description="Generic connector, single row, 01x22, script generated"/>
-      <property name="Sheetname" value="alcene-board-v1"/>
+      <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="alcene-board-v1.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
@@ -241,7 +241,7 @@
         <field name="Description">Generic connector, single row, 01x14, script generated</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x14_Socket" description="Generic connector, single row, 01x14, script generated"/>
-      <property name="Sheetname" value="alcene-board-v1"/>
+      <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="alcene-board-v1.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
@@ -278,7 +278,7 @@
         <field name="Description">GPIO Breakout - J1 Signals (male pin header)</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x18_Pin" description="Generic connector, single row, 01x18, script generated"/>
-      <property name="Sheetname" value="alcene-board-v1"/>
+      <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="alcene-board-v1.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
@@ -319,7 +319,7 @@
         <field name="Description">GPIO Breakout - J3 Signals (male pin header, GPIO19 moved to J5)</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x18_Pin" description="Generic connector, single row, 01x18, script generated"/>
-      <property name="Sheetname" value="alcene-board-v1"/>
+      <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="alcene-board-v1.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
@@ -360,7 +360,7 @@
         <field name="Description">GND Breakout 2x4 (male pin header)</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="alcene-board-v1"/>
+      <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="alcene-board-v1.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
@@ -391,7 +391,7 @@
         <field name="Description">3V3 Breakout 2x4 (male pin header)</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="alcene-board-v1"/>
+      <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="alcene-board-v1.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
@@ -422,7 +422,7 @@
         <field name="Description">VIN 5V Breakout 2x4 (male pin header)</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="alcene-board-v1"/>
+      <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="alcene-board-v1.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
@@ -453,7 +453,7 @@
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value="alcene-board-v1"/>
+      <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="alcene-board-v1.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
@@ -478,7 +478,7 @@
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value="alcene-board-v1"/>
+      <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="alcene-board-v1.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
@@ -503,7 +503,7 @@
         <field name="Description">Push button switch, generic, two pins</field>
       </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <property name="Sheetname" value="alcene-board-v1"/>
+      <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="alcene-board-v1.kicad_sch"/>
       <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
       <sheetpath names="/" tstamps="/"/>

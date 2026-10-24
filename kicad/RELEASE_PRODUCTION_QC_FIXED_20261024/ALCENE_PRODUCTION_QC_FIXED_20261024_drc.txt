@@ -1,16 +1,16 @@
 ** Drc report for ALCENE_PRODUCTION_QC_FIXED_20261024.kicad_pcb **
-** Created on 2026-10-24T16:37:23 **
+** Created on 2026-10-24T17:11:03 **
 ** Report includes: Errors, Warnings **
 
 ** Found 38 DRC violations **
 [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
     Local override; error
-    @(41.5250 mm, 109.9662 mm): PTH pad A1 [GND] of J2
-    @(42.3750 mm, 109.9662 mm): PTH pad A4 [VIN] of J2
-[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
-    Local override; error
     @(67.9125 mm, 91.0000 mm): Pad 2 [GND] of R1 on F.Cu
     @(69.0875 mm, 91.0000 mm): Pad 1 [Net-(J2-PadB5)] of R2 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(41.5250 mm, 109.9662 mm): PTH pad A1 [GND] of J2
+    @(42.3750 mm, 109.9662 mm): PTH pad A4 [VIN] of J2
 [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
     Local override; error
     @(41.5250 mm, 109.9662 mm): PTH pad A1 [GND] of J2

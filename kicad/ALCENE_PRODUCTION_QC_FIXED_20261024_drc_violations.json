@@ -1,18 +1,89 @@
 {
   "board": "X:\\alcene\\kicad\\ALCENE_PRODUCTION_QC_FIXED_20261024.kicad_pcb",
-  "timestamp": "2026-10-24T16:37:09",
-  "total_violations": 38,
+  "timestamp": "2026-10-24T17:31:18",
+  "total_violations": 45,
   "violation_counts": {
-    "clearance": 29,
+    "clearance": 34,
+    "hole_clearance": 2,
     "courtyards_overlap": 3,
     "silk_overlap": 6
   },
   "severity_counts": {
-    "error": 32,
+    "error": 39,
     "warning": 6,
     "info": 0
   },
   "violations": [
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 58.9939,
+        "y": 76.5606,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 77.4167,
+        "y": 94.9834,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 57.0,
+        "y": 110.377,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 77.4167,
+        "y": 94.9834,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 57.0,
+        "y": 110.377,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 77.4167,
+        "y": 94.9834,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation (zone clearance 0.3000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 58.9939,
+        "y": 55.5739,
+        "unit": "mm"
+      }
+    },
     {
       "type": "clearance",
       "severity": "error",
