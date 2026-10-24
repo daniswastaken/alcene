@@ -1,0 +1,602 @@
+{
+  "board": "X:\\alcene\\kicad\\ALCENE_TFT_ROUTING_VERIFIED_RELEASE_20261024.kicad_pcb",
+  "timestamp": "2026-10-24T16:08:29",
+  "total_violations": 58,
+  "violation_counts": {
+    "tracks_crossing": 7,
+    "clearance": 35,
+    "shorting_items": 2,
+    "courtyards_overlap": 3,
+    "starved_thermal": 1,
+    "solder_mask_bridge": 3,
+    "track_dangling": 1,
+    "silk_overlap": 6
+  },
+  "severity_counts": {
+    "error": 51,
+    "warning": 7,
+    "info": 0
+  },
+  "violations": [
+    {
+      "type": "tracks_crossing",
+      "severity": "error",
+      "message": "Tracks crossing",
+      "location": {
+        "x": 46.8348,
+        "y": 106.24,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "tracks_crossing",
+      "severity": "error",
+      "message": "Tracks crossing",
+      "location": {
+        "x": 47.475,
+        "y": 111.316,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "tracks_crossing",
+      "severity": "error",
+      "message": "Tracks crossing",
+      "location": {
+        "x": 69.0875,
+        "y": 92.524,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1100 mm)",
+      "location": {
+        "x": 44.1517,
+        "y": 52.7082,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1100 mm)",
+      "location": {
+        "x": 44.5499,
+        "y": 52.31,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1406 mm)",
+      "location": {
+        "x": 69.7175,
+        "y": 93.3502,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "tracks_crossing",
+      "severity": "error",
+      "message": "Tracks crossing",
+      "location": {
+        "x": 41.2889,
+        "y": 108.533,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1330 mm)",
+      "location": {
+        "x": 40.0,
+        "y": 108.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.0100 mm)",
+      "location": {
+        "x": 57.0,
+        "y": 51.04,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1566 mm)",
+      "location": {
+        "x": 57.0,
+        "y": 53.58,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "message": "Items shorting two nets (nets GND and VIN)",
+      "location": {
+        "x": 47.475,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "tracks_crossing",
+      "severity": "error",
+      "message": "Tracks crossing",
+      "location": {
+        "x": 47.5,
+        "y": 99.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "message": "Items shorting two nets (nets VIN and GND)",
+      "location": {
+        "x": 57.0,
+        "y": 99.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "tracks_crossing",
+      "severity": "error",
+      "message": "Tracks crossing",
+      "location": {
+        "x": 69.8527,
+        "y": 92.0598,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "tracks_crossing",
+      "severity": "error",
+      "message": "Tracks crossing",
+      "location": {
+        "x": 56.1765,
+        "y": 98.03,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 67.9125,
+        "y": 91.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 41.525,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 41.525,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 43.225,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 43.225,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 43.225,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 43.225,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 44.075,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 44.075,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 45.775,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 45.775,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 46.625,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 46.625,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 46.625,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 46.625,
+        "y": 109.9662,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 47.475,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 47.475,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 46.625,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 46.625,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 44.925,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 44.925,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 44.925,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 44.925,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 43.225,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 43.225,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 43.225,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 43.225,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 42.375,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 42.375,
+        "y": 111.3162,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "message": "Courtyards overlap",
+      "location": {
+        "x": 67.0,
+        "y": 91.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "message": "Courtyards overlap",
+      "location": {
+        "x": 72.2,
+        "y": 99.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "message": "Courtyards overlap",
+      "location": {
+        "x": 45.54,
+        "y": 53.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "starved_thermal",
+      "severity": "error",
+      "message": "Thermal relief connection to zone incomplete (layer B.Cu; 2 spokes connected to isolated island)",
+      "location": {
+        "x": 33.735715,
+        "y": 32.0762,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "message": "Rear solder mask aperture bridges items with different nets",
+      "location": {
+        "x": 57.0,
+        "y": 101.84,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "message": "Rear solder mask aperture bridges items with different nets",
+      "location": {
+        "x": 47.5,
+        "y": 99.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "message": "Rear solder mask aperture bridges items with different nets",
+      "location": {
+        "x": 47.5,
+        "y": 109.675,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "message": "Track has unconnected end",
+      "location": {
+        "x": 56.0,
+        "y": 101.84,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 41.62,
+        "y": 54.77,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 41.62,
+        "y": 54.77,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 44.38,
+        "y": 54.77,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 41.62,
+        "y": 98.06,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 41.62,
+        "y": 98.06,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 44.38,
+        "y": 54.77,
+        "unit": "mm"
+      }
+    }
+  ]
+}
