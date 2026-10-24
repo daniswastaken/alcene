@@ -1,0 +1,221 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-25T05:25:13",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "alcene-board-v2-rebased-zero-drc.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 4.1960 mm",
+                    "pos": {
+                        "x": 129.56,
+                        "y": 103.34
+                    },
+                    "uuid": "ac5f52eb-b2b7-406a-86df-0443212c9236"
+                },
+                {
+                    "description": "Track [GND] on F.Cu, length 8.7125 mm",
+                    "pos": {
+                        "x": 141.49,
+                        "y": 114.3
+                    },
+                    "uuid": "b2273429-79af-4e98-8a4d-2782e62cd8d3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [VIN] on B.Cu, length 1.3500 mm",
+                    "pos": {
+                        "x": 149.6,
+                        "y": 108.65
+                    },
+                    "uuid": "5e0655aa-9163-40a8-9199-3b9f95d97d24"
+                },
+                {
+                    "description": "PTH pad A4 [VIN] of J2",
+                    "pos": {
+                        "x": 153.85,
+                        "y": 110.0
+                    },
+                    "uuid": "c03c85db-f94d-42c4-aa39-e93b20451fb8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0284 mm)",
+            "items": [
+                {
+                    "description": "Track [Net-(J2-PadB5)] on B.Cu, length 7.9000 mm",
+                    "pos": {
+                        "x": 150.45,
+                        "y": 102.9
+                    },
+                    "uuid": "2c902a1d-7419-49c8-80c2-041183c25b4f"
+                },
+                {
+                    "description": "Track [VIN] on B.Cu, length 2.9133 mm",
+                    "pos": {
+                        "x": 151.66,
+                        "y": 102.013
+                    },
+                    "uuid": "3b1e868e-34e7-4a9b-85ed-b0763546b911"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "Track [VIN] on F.Cu, length 1.3000 mm",
+                    "pos": {
+                        "x": 143.7,
+                        "y": 108.95
+                    },
+                    "uuid": "0741883b-a253-4ce7-a195-63426a42d1a3"
+                },
+                {
+                    "description": "Pad 2 [GND] of R1 on F.Cu",
+                    "pos": {
+                        "x": 142.8,
+                        "y": 109.0875
+                    },
+                    "uuid": "10471d0d-48b3-4655-8b6d-c9d4b1ee298c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of R2 on F.Cu",
+                    "pos": {
+                        "x": 142.8,
+                        "y": 105.5875
+                    },
+                    "uuid": "5747d2f6-28c2-473a-939b-5b7d6c4da931"
+                },
+                {
+                    "description": "Track [VIN] on F.Cu, length 10.9370 mm",
+                    "pos": {
+                        "x": 143.7,
+                        "y": 102.013
+                    },
+                    "uuid": "84ec0d6d-6d99-46ea-8716-b4481e8f5937"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "Track [VIN] on B.Cu, length 2.9133 mm",
+                    "pos": {
+                        "x": 151.66,
+                        "y": 102.013
+                    },
+                    "uuid": "3b1e868e-34e7-4a9b-85ed-b0763546b911"
+                },
+                {
+                    "description": "Track [Net-(J2-PadB5)] on B.Cu, length 5.7500 mm",
+                    "pos": {
+                        "x": 150.45,
+                        "y": 108.65
+                    },
+                    "uuid": "9053b5b6-72f8-4494-a90a-9c34d56bb756"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x18_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J6",
+                    "pos": {
+                        "x": 147.54,
+                        "y": 55.0
+                    },
+                    "uuid": "2491600b-51be-4910-b1ab-cf599d9822fa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'USB_C_Receptacle_GCT_USB4085' does not match copy in library 'Connector_USB'",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 154.7,
+                        "y": 110.0
+                    },
+                    "uuid": "b5ba9f31-83f5-40bd-84ed-1ce2f8bdc65a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x18_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J5",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 55.0
+                    },
+                    "uuid": "eca6adfd-d260-42d6-9aed-1c087c01dcc9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+  "board": "X:\\alcene\\kicad\\alcene-board-v2-rebased-zero-drc.kicad_pcb",
+  "timestamp": "2026-10-25T00:10:55",
+  "total_violations": 2,
+  "violation_counts": {
+    "lib_footprint_mismatch": 2
+  },
+  "severity_counts": {
+    "error": 0,
+    "warning": 2,
+    "info": 0
+  },
+  "violations": [
+    {
+      "type": "lib_footprint_mismatch",
+      "severity": "warning",
+      "message": "Footprint 'PinHeader_1x18_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+      "location": {
+        "x": 147.54,
+        "y": 55.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_mismatch",
+      "severity": "warning",
+      "message": "Footprint 'PinHeader_1x18_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+      "location": {
+        "x": 145.0,
+        "y": 55.0,
+        "unit": "mm"
+      }
+    }
+  ]
+}
