@@ -1,0 +1,2 @@
+ERC: 0 errors, 0 warnings, 0 info
+Schematic: X:lcene\kicadlcene-board-v1.kicad_sch
