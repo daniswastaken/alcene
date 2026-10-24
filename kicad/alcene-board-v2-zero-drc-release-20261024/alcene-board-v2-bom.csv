@@ -1,0 +1,15 @@
+Ref,Qty,Value,Footprint
+C1,1,10uF,Capacitor_SMD:C_0805_2012Metric
+C2,1,100nF,Capacitor_SMD:C_0805_2012Metric
+J1,1,ESP32-S3-DevKitC-1_J1,Connector_PinSocket_2.54mm:PinSocket_1x22_P2.54mm_Vertical
+J2,1,USB-C Input,Connector_USB:USB_C_Receptacle_GCT_USB4085
+J3,1,ESP32-S3-DevKitC-1_J3,Connector_PinSocket_2.54mm:PinSocket_1x22_P2.54mm_Vertical
+J4,1,ILI9341_TFT_14pin,Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical
+J5,1,Male Pin Header 1x18 - J1 Signals,Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical
+J6,1,Male Pin Header 1x18 - J3 Signals,Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical
+J7,1,Male Pin Header 2x4 - GND,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical
+J8,1,Male Pin Header 2x4 - 3V3,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical
+J9,1,Male Pin Header 2x4 - VIN 5V,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical
+R1,1,5.1k,Resistor_SMD:R_0805_2012Metric
+R2,1,5.1k,Resistor_SMD:R_0805_2012Metric
+SW1,1,ESP32-S3 Reset (NO momentary),Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK
