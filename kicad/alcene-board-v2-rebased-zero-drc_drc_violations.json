@@ -1,33 +1,156 @@
 {
   "board": "X:\\alcene\\kicad\\alcene-board-v2-rebased-zero-drc.kicad_pcb",
-  "timestamp": "2026-10-25T00:10:55",
-  "total_violations": 2,
+  "timestamp": "2026-10-25T17:12:58",
+  "total_violations": 14,
   "violation_counts": {
-    "lib_footprint_mismatch": 2
+    "track_dangling": 6,
+    "via_dangling": 2,
+    "silk_edge_clearance": 3,
+    "silk_overlap": 3
   },
   "severity_counts": {
     "error": 0,
-    "warning": 2,
+    "warning": 14,
     "info": 0
   },
   "violations": [
     {
-      "type": "lib_footprint_mismatch",
+      "type": "track_dangling",
       "severity": "warning",
-      "message": "Footprint 'PinHeader_1x18_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+      "message": "Track has unconnected end",
       "location": {
-        "x": 147.54,
-        "y": 55.0,
+        "x": 76.6,
+        "y": 112.5,
         "unit": "mm"
       }
     },
     {
-      "type": "lib_footprint_mismatch",
+      "type": "track_dangling",
       "severity": "warning",
-      "message": "Footprint 'PinHeader_1x18_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+      "message": "Track has unconnected end",
       "location": {
-        "x": 145.0,
-        "y": 55.0,
+        "x": 74.0,
+        "y": 112.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "message": "Track has unconnected end",
+      "location": {
+        "x": 74.0,
+        "y": 112.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "message": "Track has unconnected end",
+      "location": {
+        "x": 74.6109,
+        "y": 114.411,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "message": "Track has unconnected end",
+      "location": {
+        "x": 76.6,
+        "y": 114.411,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "warning",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 88.69,
+        "y": 116.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "warning",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 78.53,
+        "y": 116.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "track_dangling",
+      "severity": "warning",
+      "message": "Track has unconnected end",
+      "location": {
+        "x": 102.41,
+        "y": 99.53,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 157.05,
+        "y": 120.45,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 157.05,
+        "y": 120.45,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 157.05,
+        "y": 120.45,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 49.72,
+        "y": 35.35,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 59.48,
+        "y": 120.43,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 49.72,
+        "y": 35.35,
         "unit": "mm"
       }
     }
