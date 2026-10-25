@@ -142,3 +142,25 @@ plane. Demand: mouth precisely at the edge, neither over nor short.
 - Visual proof: .opencode/r9.png (3D top-tilt: mouth on the edge, row north) and .opencode/r10.png (front
   profile: mating face coplanar with the board edge; the small tips below the edge are the bare THT leg
   ends, which pin through every connector tip).
+
+
+## Round 6 (op4) — module-socket pitch 22.86 → 25.40 (J1 moves west)
+
+Demand: J1↔J3 column centres must read the DevKitC mating spacing as 25.40 mm. Distance was 22.86 (J1 x 106.70 / J3 x 129.56); J3 fixed ⇒ J1 → **104.16** (Δ −2.54 x). Per the directive, every fixture anchored west of the route boundary follows.
+
+- Shift set (anchor x < 127.5, each −2.54): **J1 104.16, J8 111.78, SW1 111.96 (rot 90), J4 58.21, MH1 52.125, MH2 97.315**. J8 rides because its column-1 pad x (106.70) is exactly the J1 column x — the −2.54 keeps the 3V3 header rows' pin-grid alignment on the new J1 line (both col-1 pads land on x 104.16). Everything east is untouched: J5/J6/J9/J7 (anchor 130.93)/J2/R1/R2/C1/C2 byte-identical; outline unchanged.
+- Route surgery on x-plane 127.5 (verified empty ±0.9 — no segment end, via, or pad centre; all 22 west–east crossings horizontal):
+  - **124 segments wholesale-shifted** (both ends west of the plane; uuids preserved, relative geometry intact): RST fan + trunk + diag constellation, 3V3 west cluster incl. SW1 pad links and the B.Cu diagonal to J1's 3V3 pins, display GND/GPIO chains, all B-side display escapes.
+  - **19 crossers stretched in place** (west end −2.54, y and east end unchanged): GPIO 4/5/6/7/8/9/10/11/12/14/15/16/17/18/46 channels (west ends land on the F.Cu pad-fan diagonals, e.g. GPIO15 west end 107.896 → 105.356), GPIO13 intermediate row (125.743 → 123.203), VIN main run (107.913 → 105.373, via at 149.6 untouched) and the GND mainline pass into J3's (129.56,103.34) pad (west end 125.364 → 122.824, ties the shifted diagonal exactly). No new segments, all 45°-legal.
+  - **Locked cluster:** J7 stays (anchor 130.93 lies east of the plane), so its GND plumbing is frozen: both F.Cu row bonds (a4326a5d / 666f5057, 123.31→130.93 at y 38.75 / 41.29), the B.Cu drop c29e0934 (pad 123.31,41.29 → 123.31,44.31) and the B.Cu bridge to J3's B.Cu lane affbf08e (123.31→129.56 at y 44.31). Endpoint-exact BFS over pad ties confirmed the rest of the west region needs no further locks (locked rows verified present in the final file).
+  - **1 via moved:** RST (113.591,113.991) → (111.051,113.991).
+- Silkscreen regression: the module-frame rect (gr_rect 2f712aa1, the "2.8 INCH TFT DISPLAY AREA 50.0 x 85.0 mm (Dwg reservation)" 50×85 frame) plus its label had to follow the fixture shift. Test-driven disposition against kicad-cli:
+  1. full −2.54 shift ⇒ frame west edge 49.72 projects 0.54 past the outline (silk_edge_clearance).
+  2. clamped: frame west 50.42 / east 100.42, label at mid 75.42 — DRC-clean but margins uneven (0.16 west vs 2.0 north) and the frame drifted off the display pad row.
+  3. user-directed final: **the board outline grows west by the same 2.54** (west edge 50.26 → 47.72; north/south outline lines extended in x only, south edge untouched so the USB-C mating mouth stays exactly flush as in round 5) and the 50×85 frame + label are restored at the full −2.54 shift: **frame 49.72 → 99.72, label 74.72**. Every original edge margin returns: frame west margin 2.0 = north margin 2.0, MH1 pad rim (50.575) back to 0.855 silk clearance and 2.855 copper-to-edge, display pad-row centre 74.72 = frame mid exactly as in the pre-round-6 design. Board grows to 109.33 mm width (x 47.72..157.05). All gates re-run fresh after this step: DRC 0/0/0 + parity 0, audit6 / verify_equiv / duplicates / sexp balance all green again.
+- Gates (all fresh on the final state):
+  - DRC kicad-cli 10.0 **0 errors / 0 warnings / 0 unconnected / 0 parity** (.opencode/drc_op4.json)
+  - ERC **0 violations / 0 unconnected** (.opencode/erc_op4.json; schematic untouched)
+  - verify_equiv **PASS — 42 nets / 139 nodes identical**
+  - sexp balance 0/0, duplicates 0, audit6: topology parity old-vs-new **0 mismatch** (320 segs / 7 vias), 45° audit 0 bad, all 6 moved + 6 static anchors exact, **J1–J3 c-c measures 25.4000**.
+- Visual proof: .opencode/r12_top.png (top: J1 at 104.16, frame with equal 2.0 margins west/north, USB-C flush at the south edge) and .opencode/r12_bot.png (bottom mirror: B.Cu diagonals and J1 pad column intact). Intermediate state kept as .opencode/r11_top.png / r11_bot.png (outline not yet grown).
