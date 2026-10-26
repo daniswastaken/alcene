@@ -5756,7 +5756,7 @@
 		)
 	)
 	(gr_text "3V3"
-		(at 107.97 40.15 0)
+		(at 107.97 40.531 0)
 		(layer "F.SilkS")
 		(uuid "d120e311-6171-4703-a7aa-5f8fd92a0bf4")
 		(effects
@@ -5767,7 +5767,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 125.85 40.15 0)
+		(at 125.85 40.531 0)
 		(layer "F.SilkS")
 		(uuid "bc40244b-1e61-4341-b83d-f23714c61107")
 		(effects
@@ -5778,7 +5778,7 @@
 		)
 	)
 	(gr_text "5V"
-		(at 143.73 40.15 0)
+		(at 143.73 40.531 0)
 		(layer "F.SilkS")
 		(uuid "1ec71214-04a7-4210-8e4b-50ffd7db892a")
 		(effects
